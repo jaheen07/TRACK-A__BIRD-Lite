@@ -1,7 +1,7 @@
 # TRACK A - BIRD Lite
 
 ### Dependencies
-- pip install opencv-python
+- pip install opencv-python numpy
 
 ### What approach I used and why
 - I used a rule-based classical cv approach with: (1) rotation correction, then (2) structure detection. I chose this approach because correcting tilt first using rules makes the code more efficient to detect accuract structure(lines/roofs/windows/doors).
