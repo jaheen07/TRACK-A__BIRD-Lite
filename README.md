@@ -1,4 +1,4 @@
-# TRACK A - BIRD LITE
+# TRACK A - BIRD Lite
 
 ### Dependencies
 - pip install opencv-python
