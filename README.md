@@ -1,5 +1,8 @@
 # TRACK A - BIRD LITE
 
+### Dependencies
+- pip install opencv-python
+
 ### What approach I used and why
 - I used a rule-based classical cv approach with: (1) rotation correction, then (2) structure detection. I chose this approach because correcting tilt first using rules makes the code more efficient to detect accuract structure(lines/roofs/windows/doors).
 - The dataset is developed programatically. It includes 32 mix samples of line-drawing style house images such as: clean, thick-line, thin-line, distorted-line, rotated, dotted-line and dashed-line images.
@@ -25,9 +28,9 @@
 
 ## Tools Disclouser:
 
-1. I used python-libraries: "OpenCV", "numpy", "dataclasses", "json", AI assistant: "Chatgpt (codex)".
-2. To develop the full code, I used the python and it's mentioned libraries. But I took help of Chatgpt for creating synthetic image data programmatically.
-3. Additionally I used AI Assistant for fixing some bugs and to refining my code structure which gave better result later.
-4. My personal contribution in this code is in developing logics and setting rules to detect the line segments and rectangular shapes. Then I validated the model outputs through iterative testing with hand-drawn image samples. 
+- I used python-libraries: "OpenCV", "numpy", "dataclasses", "json", AI assistant: "Chatgpt (codex)".
+- To develop the full code, I used the python and it's mentioned libraries. But I took help of Chatgpt for creating synthetic image data programmatically.
+- Additionally I used AI Assistant for fixing some bugs and to refining my code structure which gave better result later.
+- My personal contribution in this code is in developing logics and setting rules to detect the line segments and rectangular shapes. Then I validated the model outputs through iterative testing with hand-drawn image samples. 
 
 
