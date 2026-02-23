@@ -26,7 +26,7 @@
 
 
 
-## Tools Disclouser:
+## Tools Usage Disclouser:
 
 - I used python-libraries: "OpenCV", "numpy", "dataclasses", "json", AI assistant: "Chatgpt (codex)".
 - To develop the full code, I used the python and it's mentioned libraries. But I took help of Chatgpt for creating synthetic image data programmatically.
