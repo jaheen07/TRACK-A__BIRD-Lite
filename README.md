@@ -21,6 +21,9 @@
 ### One simple evaluation/check I used: 
 - I manually evaluated the code with 5 hand-drawn house images containing windows,doors and roofs. And it can detect 90% of the parts accurately.
 
+### Robustness:
+- Code can handle rotation and detect thicker lines properly.
+
 ### What I would improve in future:
 - With more time, I would improve junction handling using endpoint-aware line extension, evaluate performance using precision and recall on a labeled validation set, and enhance the model to handle noisy data.
 
