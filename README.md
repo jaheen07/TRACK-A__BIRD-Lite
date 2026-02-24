@@ -33,7 +33,7 @@
 
 - I used python-libraries: "OpenCV", "numpy", "dataclasses", "json", AI assistant: "Chatgpt (codex)".
 - To develop the full code, I used the python and it's mentioned libraries. But I took help of Chatgpt for creating synthetic image data programmatically.
-- Additionally I used AI Assistant for fixing some bugs and to refining my code structure which gave better result later.
-- My personal contribution in this code is in developing logics and setting rules to detect the line segments and rectangular shapes. Then I validated the model outputs through iterative testing with hand-drawn image samples. 
+- Additionally I used Codex for fixing some bugs and to refining my code structure which gave better result later.
+- My personal contribution in this work is developing logics, writing it's code and setting rules to detect the line segments and rectangular shapes. Then I validated the model outputs through iterative testing with hand-drawn image samples. 
 
 
