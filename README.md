@@ -16,7 +16,7 @@
 - Full code ran on 32 images and can accuratly detect most of the house parts. A simple check gave: 19 roof detections (11 triangle, 8 flat), 169 windows (8 false positive), 40 doors (11 false positive).
 
 ### What did not fully work (failure case): 
-- In some images, diagonal roof lines are not fully extended at corners (short at junctions). This happens when corner pixels break during thinning/Canny and strict duplicate suppression trims line endpoints. 
+- In some images, diagonal roof lines stop short at corners because thinning or Canny edge detection breaks corner pixels, and strict duplicate suppression removes line endpoints. 
 
 ### One simple evaluation/check I used: 
 - I manually evaluated the code with 5 hand-drawn house images containing windows,doors and roofs. And it can detect 90% of the parts accurately.
